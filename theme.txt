@@ -1,0 +1,74 @@
+# ANIME GIRL GRUB THEME : PURPLE
+
+title-text: ""
+#title-font: "custom"
+#title-color: ""
+
+desktop-image: "purple_background.jpg"
+
+terminal-border: "1"
+terminal-left: "2"
+terminal-top: "2"
+terminal-box: "purplebg_*.jpg"
+terminal-font: "custom.pf2"
+
+
+
+#Add boot entries
++ boot_menu {
+	left = 2%
+	top = 25%
+	width = 60%
+	height = 55%
+
+	item_padding = 10
+	item_spacing = 30 
+	item_height = 36
+	item_pixmap_style = "purplebg_*.jpg"
+	#item_icon_space = 
+	item_color = "#37295C"
+	item_font = "custom.pf2"
+	item_align = "center"
+	selected_item_color = "#010101"
+	#selected_item_pixmap_style = ""
+}
+
+#+ image {
+	#file = "menubg.jpg"
+	#left = 1%
+	#top =20%
+	#width = 50%
+	#height = 60%
+}
+#Shadows
++ boot_menu {
+	left = 2%+5
+	top = 25%+5
+	width = 60%
+	height = 55%
+
+	item_padding = 10
+	item_spacing = 30
+	item_height = 36
+	item_color = "#b4a7d2"
+	item_font = "custom.pf2"
+	item_align = "center"
+	selected_item_color = "#e6dff7"
+} 
+
+
++ progress_bar {
+
+	id = "__timeout__"
+	top = 90%
+	left = 5%
+	width = 50%
+	height = 20
+	bg_color = "#b4a7d2"
+	fg_color = "#37295C"
+	border_color = "#010101"
+	text = "BOOT IN %d S"
+	text_color = "#010101"
+	font = "custom.pf2"
+
+}
