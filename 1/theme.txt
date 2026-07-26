@@ -1,4 +1,3 @@
-# ANIME GIRL GRUB THEME : PURPLE
 
 title-text: ""
 #title-font: "custom"
